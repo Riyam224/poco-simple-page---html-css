@@ -1,0 +1,62 @@
+body {
+	padding : 0;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.3rem;
+	color: azure;
+	background-color:#e0e0e0;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.row.bg {
+	position: relative;
+	background-image: url("coffee.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+p {
+	font-size: 1rem;
+}
+
+span.site {
+	font-size: 0.5rem;
+}
+
+.two {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+
+ul  li {
+	list-style: none;
+	white-space: nowrap;
+	overflow-x: auto;
+	display: inline-block;
+	margin: 10px;
+}
+
+ul li span.line {
+	margin: 10px;
+	height: 10px;
+	width: 5px;
+	color: red;
+}
+
+
+.card {
+	background-color: #424242;
+	
+}
+
+.socials li:hover {
+	
+	cursor: pointer;
+	color: red;
+	
+}
+
